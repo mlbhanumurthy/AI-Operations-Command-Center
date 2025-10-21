@@ -21,20 +21,32 @@ Designed for easy deployment and customization using Python and simple configura
 🧠 Project Structure
 AIOpsOrchestrator/
 │
+
 ├── monitors/                # Monitors for system or service metrics
+
 ├── orchestrators/           # Logic for workflow orchestration
+
 ├── static/                  # Static assets or UI-related files
-│
+ 
 ├── main.py                  # Entry point for the app
+
 ├── models.py                # Core data models and schemas
+
 ├── monitoring_service.py    # Handles data collection
+
 ├── orchestration_manager.py # Controls orchestrator logic
+
 ├── reasoning_engine.py      # AI-based decision-making engine
+
 ├── storage.py               # Data persistence layer
-│
+
+
 ├── .gitignore
+
 ├── pyproject.toml
+
 ├── uv.lock
+
 └── .env.example             # Placeholder for environment variables
 
 ⚙️ Tech Stack
@@ -56,6 +68,7 @@ Local Python environment
 Configurable with .env and pyproject.toml
 
 🚦 Getting Started
+
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/AIOpsOrchestrator.git
 cd AIOpsOrchestrator
